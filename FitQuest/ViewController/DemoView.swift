@@ -7,9 +7,12 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    var body: some View {
-        VStack {
+struct DemoView: View 
+{
+    var body: some View 
+    {
+        VStack 
+        {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
@@ -20,5 +23,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    DemoView()
 }
